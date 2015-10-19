@@ -13,6 +13,23 @@
 		04BBB8521BD2CAA900BA525D /* ficohsaseguros.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04BBB8501BD2CAA900BA525D /* ficohsaseguros.xcdatamodeld */; };
 		04BBB8541BD2CAA900BA525D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BBB8531BD2CAA900BA525D /* Assets.xcassets */; };
 		04BBB8571BD2CAA900BA525D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BBB8551BD2CAA900BA525D /* LaunchScreen.storyboard */; };
+		04E390501BD404A00041585A /* ic_action_as_f.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E3904F1BD404A00041585A /* ic_action_as_f.png */; settings = {ASSET_TAGS = (); }; };
+		04E390571BD405120041585A /* ic_action_as_e.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E390521BD405120041585A /* ic_action_as_e.png */; settings = {ASSET_TAGS = (); }; };
+		04E390581BD405120041585A /* ic_action_as_d.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E390531BD405120041585A /* ic_action_as_d.png */; settings = {ASSET_TAGS = (); }; };
+		04E390591BD405120041585A /* ic_action_as_c.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E390541BD405120041585A /* ic_action_as_c.png */; settings = {ASSET_TAGS = (); }; };
+		04E3905A1BD405120041585A /* ic_action_as_b.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E390551BD405120041585A /* ic_action_as_b.png */; settings = {ASSET_TAGS = (); }; };
+		04E3905B1BD405120041585A /* ic_action_as_a.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E390561BD405120041585A /* ic_action_as_a.png */; settings = {ASSET_TAGS = (); }; };
+		04E3905D1BD405E40041585A /* logoficohsablanco.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E3905C1BD405E40041585A /* logoficohsablanco.png */; settings = {ASSET_TAGS = (); }; };
+		04E390601BD40AEF0041585A /* ViewControllerLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3905F1BD40AEF0041585A /* ViewControllerLogin.swift */; settings = {ASSET_TAGS = (); }; };
+		04E390621BD410AD0041585A /* panic1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04E390611BD410AD0041585A /* panic1.jpg */; settings = {ASSET_TAGS = (); }; };
+		04E390651BD414C40041585A /* TableViewControllerNotificaciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E390641BD414C40041585A /* TableViewControllerNotificaciones.swift */; settings = {ASSET_TAGS = (); }; };
+		04E390681BD415700041585A /* XmlNotificaciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E390671BD415700041585A /* XmlNotificaciones.swift */; settings = {ASSET_TAGS = (); }; };
+		04E3906B1BD4167F0041585A /* TableViewControllerNotificacionesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3906A1BD4167F0041585A /* TableViewControllerNotificacionesCell.swift */; settings = {ASSET_TAGS = (); }; };
+		04E3906F1BD49E2B0041585A /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E3906E1BD49E2B0041585A /* SWRevealViewController.m */; settings = {ASSET_TAGS = (); }; };
+		04E390711BD4AA270041585A /* TableViewControllerMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E390701BD4AA270041585A /* TableViewControllerMenu.swift */; settings = {ASSET_TAGS = (); }; };
+		04E390731BD4B0920041585A /* ViewControllerConsultas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E390721BD4B0920041585A /* ViewControllerConsultas.swift */; settings = {ASSET_TAGS = (); }; };
+		04E390751BD4BCBA0041585A /* ViewControllerPanic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E390741BD4BCBA0041585A /* ViewControllerPanic.swift */; settings = {ASSET_TAGS = (); }; };
+		04E390771BD4C4990041585A /* ViewControllerTipoAsistencia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E390761BD4C4990041585A /* ViewControllerTipoAsistencia.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +41,25 @@
 		04BBB8531BD2CAA900BA525D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04BBB8561BD2CAA900BA525D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04BBB8581BD2CAA900BA525D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E3904F1BD404A00041585A /* ic_action_as_f.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_action_as_f.png; path = "../../AndroidStudioProjects/FicohsaSeguros/app/src/main/res/drawable-xxhdpi/ic_action_as_f.png"; sourceTree = "<group>"; };
+		04E390521BD405120041585A /* ic_action_as_e.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_action_as_e.png; path = "../../AndroidStudioProjects/FicohsaSeguros/app/src/main/res/drawable-xxhdpi/ic_action_as_e.png"; sourceTree = "<group>"; };
+		04E390531BD405120041585A /* ic_action_as_d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_action_as_d.png; path = "../../AndroidStudioProjects/FicohsaSeguros/app/src/main/res/drawable-xxhdpi/ic_action_as_d.png"; sourceTree = "<group>"; };
+		04E390541BD405120041585A /* ic_action_as_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_action_as_c.png; path = "../../AndroidStudioProjects/FicohsaSeguros/app/src/main/res/drawable-xxhdpi/ic_action_as_c.png"; sourceTree = "<group>"; };
+		04E390551BD405120041585A /* ic_action_as_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_action_as_b.png; path = "../../AndroidStudioProjects/FicohsaSeguros/app/src/main/res/drawable-xxhdpi/ic_action_as_b.png"; sourceTree = "<group>"; };
+		04E390561BD405120041585A /* ic_action_as_a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_action_as_a.png; path = "../../AndroidStudioProjects/FicohsaSeguros/app/src/main/res/drawable-xxhdpi/ic_action_as_a.png"; sourceTree = "<group>"; };
+		04E3905C1BD405E40041585A /* logoficohsablanco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logoficohsablanco.png; path = "../../AndroidStudioProjects/FicohsaSeguros/app/src/main/res/drawable-mdpi/logoficohsablanco.png"; sourceTree = "<group>"; };
+		04E3905F1BD40AEF0041585A /* ViewControllerLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerLogin.swift; sourceTree = "<group>"; };
+		04E390611BD410AD0041585A /* panic1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = panic1.jpg; path = "../../AndroidStudioProjects/FicohsaSeguros/app/src/main/res/drawable-mdpi/panic1.jpg"; sourceTree = "<group>"; };
+		04E390641BD414C40041585A /* TableViewControllerNotificaciones.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewControllerNotificaciones.swift; sourceTree = "<group>"; };
+		04E390671BD415700041585A /* XmlNotificaciones.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XmlNotificaciones.swift; sourceTree = "<group>"; };
+		04E3906A1BD4167F0041585A /* TableViewControllerNotificacionesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewControllerNotificacionesCell.swift; sourceTree = "<group>"; };
+		04E3906C1BD49E290041585A /* ficohsaseguros-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ficohsaseguros-Bridging-Header.h"; sourceTree = "<group>"; };
+		04E3906D1BD49E2B0041585A /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		04E3906E1BD49E2B0041585A /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		04E390701BD4AA270041585A /* TableViewControllerMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewControllerMenu.swift; sourceTree = "<group>"; };
+		04E390721BD4B0920041585A /* ViewControllerConsultas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerConsultas.swift; sourceTree = "<group>"; };
+		04E390741BD4BCBA0041585A /* ViewControllerPanic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerPanic.swift; sourceTree = "<group>"; };
+		04E390761BD4C4990041585A /* ViewControllerTipoAsistencia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTipoAsistencia.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +76,7 @@
 		04BBB83D1BD2CAA800BA525D = {
 			isa = PBXGroup;
 			children = (
+				04E390511BD404ED0041585A /* Images */,
 				04BBB8481BD2CAA800BA525D /* ficohsaseguros */,
 				04BBB8471BD2CAA800BA525D /* Products */,
 			);
@@ -56,15 +93,73 @@
 		04BBB8481BD2CAA800BA525D /* ficohsaseguros */ = {
 			isa = PBXGroup;
 			children = (
+				04E3906D1BD49E2B0041585A /* SWRevealViewController.h */,
+				04E3906E1BD49E2B0041585A /* SWRevealViewController.m */,
+				04E390691BD416510041585A /* TableViewControllerCell */,
+				04E390661BD415580041585A /* Models */,
+				04E390631BD414A70041585A /* TableViewController */,
+				04E3905E1BD40AC30041585A /* ViewController */,
 				04BBB8491BD2CAA800BA525D /* AppDelegate.swift */,
-				04BBB84B1BD2CAA800BA525D /* ViewController.swift */,
 				04BBB84D1BD2CAA900BA525D /* Main.storyboard */,
 				04BBB8531BD2CAA900BA525D /* Assets.xcassets */,
 				04BBB8551BD2CAA900BA525D /* LaunchScreen.storyboard */,
 				04BBB8581BD2CAA900BA525D /* Info.plist */,
 				04BBB8501BD2CAA900BA525D /* ficohsaseguros.xcdatamodeld */,
+				04E3906C1BD49E290041585A /* ficohsaseguros-Bridging-Header.h */,
 			);
 			path = ficohsaseguros;
+			sourceTree = "<group>";
+		};
+		04E390511BD404ED0041585A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				04E390611BD410AD0041585A /* panic1.jpg */,
+				04E3905C1BD405E40041585A /* logoficohsablanco.png */,
+				04E390521BD405120041585A /* ic_action_as_e.png */,
+				04E390531BD405120041585A /* ic_action_as_d.png */,
+				04E390541BD405120041585A /* ic_action_as_c.png */,
+				04E390551BD405120041585A /* ic_action_as_b.png */,
+				04E390561BD405120041585A /* ic_action_as_a.png */,
+				04E3904F1BD404A00041585A /* ic_action_as_f.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		04E3905E1BD40AC30041585A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				04BBB84B1BD2CAA800BA525D /* ViewController.swift */,
+				04E3905F1BD40AEF0041585A /* ViewControllerLogin.swift */,
+				04E390721BD4B0920041585A /* ViewControllerConsultas.swift */,
+				04E390741BD4BCBA0041585A /* ViewControllerPanic.swift */,
+				04E390761BD4C4990041585A /* ViewControllerTipoAsistencia.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		04E390631BD414A70041585A /* TableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				04E390641BD414C40041585A /* TableViewControllerNotificaciones.swift */,
+				04E390701BD4AA270041585A /* TableViewControllerMenu.swift */,
+			);
+			name = TableViewController;
+			sourceTree = "<group>";
+		};
+		04E390661BD415580041585A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04E390671BD415700041585A /* XmlNotificaciones.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		04E390691BD416510041585A /* TableViewControllerCell */ = {
+			isa = PBXGroup;
+			children = (
+				04E3906A1BD4167F0041585A /* TableViewControllerNotificacionesCell.swift */,
+			);
+			name = TableViewControllerCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,6 +188,7 @@
 		04BBB83E1BD2CAA800BA525D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = SoftwareFactoryHN;
 				TargetAttributes = {
@@ -124,9 +220,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E3905B1BD405120041585A /* ic_action_as_a.png in Resources */,
+				04E390591BD405120041585A /* ic_action_as_c.png in Resources */,
+				04E390581BD405120041585A /* ic_action_as_d.png in Resources */,
+				04E3905A1BD405120041585A /* ic_action_as_b.png in Resources */,
 				04BBB8571BD2CAA900BA525D /* LaunchScreen.storyboard in Resources */,
+				04E3905D1BD405E40041585A /* logoficohsablanco.png in Resources */,
 				04BBB8541BD2CAA900BA525D /* Assets.xcassets in Resources */,
+				04E390501BD404A00041585A /* ic_action_as_f.png in Resources */,
 				04BBB84F1BD2CAA900BA525D /* Main.storyboard in Resources */,
+				04E390571BD405120041585A /* ic_action_as_e.png in Resources */,
+				04E390621BD410AD0041585A /* panic1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +241,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E390711BD4AA270041585A /* TableViewControllerMenu.swift in Sources */,
+				04E390751BD4BCBA0041585A /* ViewControllerPanic.swift in Sources */,
+				04E390601BD40AEF0041585A /* ViewControllerLogin.swift in Sources */,
 				04BBB84C1BD2CAA800BA525D /* ViewController.swift in Sources */,
+				04E390731BD4B0920041585A /* ViewControllerConsultas.swift in Sources */,
+				04E3906B1BD4167F0041585A /* TableViewControllerNotificacionesCell.swift in Sources */,
+				04E3906F1BD49E2B0041585A /* SWRevealViewController.m in Sources */,
+				04E390651BD414C40041585A /* TableViewControllerNotificaciones.swift in Sources */,
+				04E390771BD4C4990041585A /* ViewControllerTipoAsistencia.swift in Sources */,
+				04E390681BD415700041585A /* XmlNotificaciones.swift in Sources */,
 				04BBB8521BD2CAA900BA525D /* ficohsaseguros.xcdatamodeld in Sources */,
 				04BBB84A1BD2CAA800BA525D /* AppDelegate.swift in Sources */,
 			);
@@ -250,10 +363,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ficohsaseguros/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hn.com.ficohsa.seguros.ficohsaseguros;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ficohsaseguros/ficohsaseguros-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -261,10 +378,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ficohsaseguros/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hn.com.ficohsa.seguros.ficohsaseguros;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ficohsaseguros/ficohsaseguros-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -287,6 +407,7 @@
 				04BBB85D1BD2CAA900BA525D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
