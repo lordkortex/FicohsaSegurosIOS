@@ -14,12 +14,37 @@ class ViewControllerPanic: UIViewController {
     @IBOutlet weak var Open: UIBarButtonItem!
     
     override func viewDidLoad() {
+       
         super.viewDidLoad()
         Open.target = self.revealViewController()
         Open.action = Selector("revealToggle:")
         self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         
     }
+    
+    @IBOutlet weak var ButtonPanic: UIButton!
+    
+    @IBAction func ButtonPanicAction(sender: AnyObject) {
+ 
+        var refreshAlert = UIAlertController(title: "Error de comunicacion", message: "Imposible comunicarse con asistencia Ficohsa.Levantar llamada.", preferredStyle: UIAlertControllerStyle.Alert)
+        
+        refreshAlert.addAction(UIAlertAction(title: "Ok", style: .Default, handler: { (action: UIAlertAction!) in
+            //println("Handle Ok logic here")
+        }))
+        
+        refreshAlert.addAction(UIAlertAction(title: "Cancel", style: .Default, handler: { (action: UIAlertAction!) in
+            //println("Handle Cancel Logic here")
+        }))
+        
+        presentViewController(refreshAlert, animated: true, completion: nil)
+        
+    }
+    
+    @IBAction func AlertDialog(sender: AnyObject) {
+        
+        
+    }
+    
     
     override func viewDidAppear(animated: Bool) {
         self.navigationController?.navigationBar.topItem?.title = "Menu"
