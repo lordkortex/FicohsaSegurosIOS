@@ -1,15 +1,18 @@
 //
-//  TableViewControllerNotificacionesCell.swift
+//  ImageCell.swift
 //  ficohsaseguros
 //
-//  Created by mac on 18/10/15.
+//  Created by mac on 25/10/15.
 //  Copyright © 2015 SoftwareFactoryHN. All rights reserved.
 //
 
 import UIKit
 
-class TableViewControllerNotificacionesCell: UITableViewCell {
+class ImageCell: UITableViewCell {
     
+    @IBOutlet weak var customImageView: UIImageView!
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var subtitleLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

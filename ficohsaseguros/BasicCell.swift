@@ -1,15 +1,17 @@
 //
-//  TableViewControllerNotificacionesCell.swift
+//  BasicCell.swift
 //  ficohsaseguros
 //
-//  Created by mac on 18/10/15.
+//  Created by mac on 25/10/15.
 //  Copyright © 2015 SoftwareFactoryHN. All rights reserved.
 //
 
 import UIKit
 
-class TableViewControllerNotificacionesCell: UITableViewCell {
+class BasicCell: UITableViewCell {
     
+    @IBOutlet weak var title: UILabel!
+    @IBOutlet weak var subTitle: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

@@ -8,10 +8,9 @@
 
 import UIKit
 
-class ViewControllerLogin: UIViewController {
+class ViewControllerLogin: UIViewController, UITextFieldDelegate {
     
     
-    @IBOutlet weak var TextViewUser: UITextField!
     @IBOutlet weak var TextViewPassword: UITextField!
     
     
@@ -20,6 +19,8 @@ class ViewControllerLogin: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.TextViewPassword.delegate = self
+        self.TextViewPassword.returnKeyType = UIReturnKeyType.Done
     }
     
     override func didReceiveMemoryWarning() {
@@ -36,6 +37,11 @@ class ViewControllerLogin: UIViewController {
 
         self.dismissViewControllerAnimated(true, completion: nil)
         
+    }
+    
+    func textFieldShouldReturn(userText: UITextField!) -> Bool {
+        userText.resignFirstResponder()
+        return true;
     }
     
 }

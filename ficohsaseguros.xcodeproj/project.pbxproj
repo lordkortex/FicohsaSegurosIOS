@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		046290C71BDC332200003896 /* ViewControllerMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046290C61BDC332200003896 /* ViewControllerMap.swift */; settings = {ASSET_TAGS = (); }; };
 		046290C91BDC422D00003896 /* TableViewControllerMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046290C81BDC422D00003896 /* TableViewControllerMenuCell.swift */; settings = {ASSET_TAGS = (); }; };
+		0464889F1BDDA01200549491 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0464889E1BDDA01200549491 /* ImageCell.swift */; settings = {ASSET_TAGS = (); }; };
+		046488A11BDDA02100549491 /* BasicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046488A01BDDA02100549491 /* BasicCell.swift */; settings = {ASSET_TAGS = (); }; };
 		04BBB84A1BD2CAA800BA525D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BBB8491BD2CAA800BA525D /* AppDelegate.swift */; };
 		04BBB84C1BD2CAA800BA525D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BBB84B1BD2CAA800BA525D /* ViewController.swift */; };
 		04BBB84F1BD2CAA900BA525D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BBB84D1BD2CAA900BA525D /* Main.storyboard */; };
@@ -37,6 +39,8 @@
 /* Begin PBXFileReference section */
 		046290C61BDC332200003896 /* ViewControllerMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerMap.swift; sourceTree = "<group>"; };
 		046290C81BDC422D00003896 /* TableViewControllerMenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewControllerMenuCell.swift; sourceTree = "<group>"; };
+		0464889E1BDDA01200549491 /* ImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		046488A01BDDA02100549491 /* BasicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicCell.swift; sourceTree = "<group>"; };
 		04BBB8461BD2CAA800BA525D /* ficohsaseguros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ficohsaseguros.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BBB8491BD2CAA800BA525D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04BBB84B1BD2CAA800BA525D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -164,6 +168,8 @@
 			children = (
 				04E3906A1BD4167F0041585A /* TableViewControllerNotificacionesCell.swift */,
 				046290C81BDC422D00003896 /* TableViewControllerMenuCell.swift */,
+				0464889E1BDDA01200549491 /* ImageCell.swift */,
+				046488A01BDDA02100549491 /* BasicCell.swift */,
 			);
 			name = TableViewControllerCell;
 			sourceTree = "<group>";
@@ -259,8 +265,10 @@
 				046290C71BDC332200003896 /* ViewControllerMap.swift in Sources */,
 				04E390771BD4C4990041585A /* ViewControllerTipoAsistencia.swift in Sources */,
 				04E390681BD415700041585A /* XmlNotificaciones.swift in Sources */,
+				046488A11BDDA02100549491 /* BasicCell.swift in Sources */,
 				04BBB8521BD2CAA900BA525D /* ficohsaseguros.xcdatamodeld in Sources */,
 				04BBB84A1BD2CAA800BA525D /* AppDelegate.swift in Sources */,
+				0464889F1BDDA01200549491 /* ImageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
