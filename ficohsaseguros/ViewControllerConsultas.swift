@@ -19,6 +19,8 @@ class ViewControllerConsultas: UIViewController {
         Open.target = self.revealViewController()
         Open.action = Selector("revealToggle:")
         self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
+        self.navigationController?.navigationBar.topItem?.title = "Consultas"
+        
         
     }
 } 

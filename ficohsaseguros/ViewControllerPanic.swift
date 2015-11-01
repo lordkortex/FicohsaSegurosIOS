@@ -7,11 +7,31 @@
 //
 
 import UIKit
+import CoreData
+import CoreLocation
+import HealthKit
+import MapKit
 
 class ViewControllerPanic: UIViewController {
     
     
     @IBOutlet weak var Open: UIBarButtonItem!
+    
+    var strLattitud:String = ""
+    var strLongitud:String = ""
+    
+    lazy var locationManager: CLLocationManager = {
+        var _locationManager = CLLocationManager()
+        _locationManager.delegate = self
+        _locationManager.desiredAccuracy = kCLLocationAccuracyBest
+        _locationManager.activityType = .Fitness
+        
+        // Movement threshold for new events
+        _locationManager.distanceFilter = 10.0
+        return _locationManager
+        }()
+
+     
     
     override func viewDidLoad() {
        
@@ -20,7 +40,10 @@ class ViewControllerPanic: UIViewController {
         Open.action = Selector("revealToggle:")
         self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         
-    }
+        locationManager.requestAlwaysAuthorization()
+        locationManager.startUpdatingLocation()
+        
+    } 
     
     @IBOutlet weak var ButtonPanic: UIButton!
     
@@ -47,7 +70,7 @@ class ViewControllerPanic: UIViewController {
     
     
     override func viewDidAppear(animated: Bool) {
-        self.navigationController?.navigationBar.topItem?.title = "Menu"
+        self.navigationController?.navigationBar.topItem?.title = "Solicitar Asistencia"
         
         
         //var color: UIColor = UIColor(red: 62/255, green: 93/255, blue: 132/255, alpha: 1.0)
@@ -60,7 +83,15 @@ class ViewControllerPanic: UIViewController {
         let isLoggedIn:Int? = prefs.integerForKey("ISLOGGEDIN") as Int
         if (isLoggedIn != 0 || isLoggedIn == nil)  {
             self.performSegueWithIdentifier("gotoLogin", sender: self)
+        } 
+    
+        let isMotorista:Int? = prefs.integerForKey("ISMOTORISTA") as Int
+        
+        if (isLoggedIn == 0 && isMotorista == 1)  {
+            self.performSegueWithIdentifier("gotoMotorista", sender: self)
         }
+        
+        
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
@@ -76,11 +107,28 @@ class ViewControllerPanic: UIViewController {
             
         }
         
-        /*if (segue.identifier == "gotoNotificaciones") {
-        let svc = segue.destinationViewController as! TableViewControllerNotificacionesCell;
+        if (segue.identifier == "gotoMotorista") {
+            let prefs:NSUserDefaults = NSUserDefaults.standardUserDefaults()
+            
+        let svc = segue.destinationViewController as! TableViewControllerGestiones;
+        var arrayOfObjectsUnarchivedData = prefs.dataForKey(Constantes.arrayOfXmlGestionesName)!
+        svc.arrayOfXmlGestiones = NSKeyedUnarchiver.unarchiveObjectWithData(arrayOfObjectsUnarchivedData) as! [XmlGestiones]
+            
         
-        }*/
+        }
     }
     
+    
+}
 
+
+extension ViewControllerPanic: CLLocationManagerDelegate,NSURLConnectionDelegate {
+    func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        for location in locations {
+            
+            strLattitud = String(format:"%.7f", location.coordinate.latitude)
+            strLongitud = String(format:"%.7f", location.coordinate.longitude)
+            
+        }
+    }
 }

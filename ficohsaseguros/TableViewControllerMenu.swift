@@ -14,8 +14,38 @@ class TableViewControllerMenu: UITableViewController {
     var TableArray = [String]()
     
     override func viewDidLoad() {
-        TableArray = ["Solicitar Asistencia","Ubicacion Asistencia","Notificaciones","Consultas Generales","Cerrar Sesion"]
+        
+        let prefs:NSUserDefaults = NSUserDefaults.standardUserDefaults()
+        let isMotorista:Int? = prefs.integerForKey("ISMOTORISTA") as Int
+        TableArray = [String]()
+
+        if (isMotorista == 1)  {
+            TableArray = ["Cerrar Sesion"]
+        }else{
+            TableArray = ["Solicitar Asistencia","Ubicacion Asistencia","Notificaciones","Consultas Generales","Cerrar Sesion"]
+        }
+        tableView.reloadData()
+        
+        
+
     }
+    override func viewDidAppear(animated: Bool) {
+       
+        let prefs:NSUserDefaults = NSUserDefaults.standardUserDefaults()
+        let isMotorista:Int? = prefs.integerForKey("ISMOTORISTA") as Int
+        TableArray = [String]()
+
+        if (isMotorista == 1)  {
+            TableArray = ["Cerrar Sesion"]
+        }else{
+            TableArray = ["Solicitar Asistencia","Ubicacion Asistencia","Notificaciones","Consultas Generales","Cerrar Sesion"]
+        }
+        tableView.reloadData()
+        
+
+        
+    }
+
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return TableArray.count
@@ -30,5 +60,19 @@ class TableViewControllerMenu: UITableViewController {
         return cell
         
     }
+    
+    
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
+        
+        if (segue.identifier == "gotoLogout") {
+            let prefs:NSUserDefaults = NSUserDefaults.standardUserDefaults()
+            prefs.setObject("", forKey: "USERNAME")
+            prefs.setInteger(1, forKey: "ISLOGGEDIN")
+            prefs.synchronize()
+            
+        }
+    }
+
     
 }

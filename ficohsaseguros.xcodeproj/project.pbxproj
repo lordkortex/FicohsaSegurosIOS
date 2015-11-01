@@ -7,10 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		044916D31BE314200033E4AB /* TableViewControllerGestiones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044916D21BE314200033E4AB /* TableViewControllerGestiones.swift */; settings = {ASSET_TAGS = (); }; };
 		046290C71BDC332200003896 /* ViewControllerMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046290C61BDC332200003896 /* ViewControllerMap.swift */; settings = {ASSET_TAGS = (); }; };
 		046290C91BDC422D00003896 /* TableViewControllerMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046290C81BDC422D00003896 /* TableViewControllerMenuCell.swift */; settings = {ASSET_TAGS = (); }; };
 		0464889F1BDDA01200549491 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0464889E1BDDA01200549491 /* ImageCell.swift */; settings = {ASSET_TAGS = (); }; };
 		046488A11BDDA02100549491 /* BasicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046488A01BDDA02100549491 /* BasicCell.swift */; settings = {ASSET_TAGS = (); }; };
+		046719E91BE43F10006C5848 /* ViewControllerRun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046719E81BE43F10006C5848 /* ViewControllerRun.swift */; settings = {ASSET_TAGS = (); }; };
+		046719EB1BE515B2006C5848 /* ModelStructParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046719EA1BE515B2006C5848 /* ModelStructParser.swift */; settings = {ASSET_TAGS = (); }; };
+		046719ED1BE515FE006C5848 /* XmlAsegurado.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046719EC1BE515FE006C5848 /* XmlAsegurado.swift */; settings = {ASSET_TAGS = (); }; };
+		046719EF1BE51785006C5848 /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046719EE1BE51785006C5848 /* Constantes.swift */; settings = {ASSET_TAGS = (); }; };
+		046719F11BE519A2006C5848 /* ModelParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046719F01BE519A2006C5848 /* ModelParser.swift */; settings = {ASSET_TAGS = (); }; };
+		046719F31BE5244C006C5848 /* XmlTokenLoginResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046719F21BE5244C006C5848 /* XmlTokenLoginResult.swift */; settings = {ASSET_TAGS = (); }; };
+		047AD8AA1BE5339C008E01CC /* XmlGestiones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047AD8A91BE5339C008E01CC /* XmlGestiones.swift */; settings = {ASSET_TAGS = (); }; };
+		047AD8AC1BE570FE008E01CC /* XmlCoordenadas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047AD8AB1BE570FE008E01CC /* XmlCoordenadas.swift */; settings = {ASSET_TAGS = (); }; };
+		047AD8AE1BE5895C008E01CC /* XmlLocalizacionToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047AD8AD1BE5895C008E01CC /* XmlLocalizacionToken.swift */; settings = {ASSET_TAGS = (); }; };
 		04BBB84A1BD2CAA800BA525D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BBB8491BD2CAA800BA525D /* AppDelegate.swift */; };
 		04BBB84C1BD2CAA800BA525D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BBB84B1BD2CAA800BA525D /* ViewController.swift */; };
 		04BBB84F1BD2CAA900BA525D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BBB84D1BD2CAA900BA525D /* Main.storyboard */; };
@@ -37,10 +47,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		044916D21BE314200033E4AB /* TableViewControllerGestiones.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewControllerGestiones.swift; sourceTree = "<group>"; };
 		046290C61BDC332200003896 /* ViewControllerMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerMap.swift; sourceTree = "<group>"; };
 		046290C81BDC422D00003896 /* TableViewControllerMenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewControllerMenuCell.swift; sourceTree = "<group>"; };
 		0464889E1BDDA01200549491 /* ImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 		046488A01BDDA02100549491 /* BasicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicCell.swift; sourceTree = "<group>"; };
+		046719E81BE43F10006C5848 /* ViewControllerRun.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerRun.swift; sourceTree = "<group>"; };
+		046719EA1BE515B2006C5848 /* ModelStructParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelStructParser.swift; sourceTree = "<group>"; };
+		046719EC1BE515FE006C5848 /* XmlAsegurado.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XmlAsegurado.swift; sourceTree = "<group>"; };
+		046719EE1BE51785006C5848 /* Constantes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
+		046719F01BE519A2006C5848 /* ModelParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelParser.swift; sourceTree = "<group>"; };
+		046719F21BE5244C006C5848 /* XmlTokenLoginResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XmlTokenLoginResult.swift; sourceTree = "<group>"; };
+		047AD8A91BE5339C008E01CC /* XmlGestiones.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XmlGestiones.swift; sourceTree = "<group>"; };
+		047AD8AB1BE570FE008E01CC /* XmlCoordenadas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XmlCoordenadas.swift; sourceTree = "<group>"; };
+		047AD8AD1BE5895C008E01CC /* XmlLocalizacionToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XmlLocalizacionToken.swift; sourceTree = "<group>"; };
 		04BBB8461BD2CAA800BA525D /* ficohsaseguros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ficohsaseguros.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BBB8491BD2CAA800BA525D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04BBB84B1BD2CAA800BA525D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -142,6 +162,7 @@
 				04E390741BD4BCBA0041585A /* ViewControllerPanic.swift */,
 				04E390761BD4C4990041585A /* ViewControllerTipoAsistencia.swift */,
 				046290C61BDC332200003896 /* ViewControllerMap.swift */,
+				046719E81BE43F10006C5848 /* ViewControllerRun.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -151,6 +172,7 @@
 			children = (
 				04E390641BD414C40041585A /* TableViewControllerNotificaciones.swift */,
 				04E390701BD4AA270041585A /* TableViewControllerMenu.swift */,
+				044916D21BE314200033E4AB /* TableViewControllerGestiones.swift */,
 			);
 			name = TableViewController;
 			sourceTree = "<group>";
@@ -158,7 +180,15 @@
 		04E390661BD415580041585A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				046719EC1BE515FE006C5848 /* XmlAsegurado.swift */,
+				046719F21BE5244C006C5848 /* XmlTokenLoginResult.swift */,
 				04E390671BD415700041585A /* XmlNotificaciones.swift */,
+				047AD8A91BE5339C008E01CC /* XmlGestiones.swift */,
+				047AD8AB1BE570FE008E01CC /* XmlCoordenadas.swift */,
+				047AD8AD1BE5895C008E01CC /* XmlLocalizacionToken.swift */,
+				046719EE1BE51785006C5848 /* Constantes.swift */,
+				046719EA1BE515B2006C5848 /* ModelStructParser.swift */,
+				046719F01BE519A2006C5848 /* ModelParser.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -206,6 +236,11 @@
 				TargetAttributes = {
 					04BBB8451BD2CAA800BA525D = {
 						CreatedOnToolsVersion = 7.0;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -253,20 +288,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				046719E91BE43F10006C5848 /* ViewControllerRun.swift in Sources */,
 				04E390711BD4AA270041585A /* TableViewControllerMenu.swift in Sources */,
 				04E390751BD4BCBA0041585A /* ViewControllerPanic.swift in Sources */,
+				046719EB1BE515B2006C5848 /* ModelStructParser.swift in Sources */,
 				046290C91BDC422D00003896 /* TableViewControllerMenuCell.swift in Sources */,
+				047AD8AC1BE570FE008E01CC /* XmlCoordenadas.swift in Sources */,
+				046719EF1BE51785006C5848 /* Constantes.swift in Sources */,
+				046719F11BE519A2006C5848 /* ModelParser.swift in Sources */,
+				046719ED1BE515FE006C5848 /* XmlAsegurado.swift in Sources */,
 				04E390601BD40AEF0041585A /* ViewControllerLogin.swift in Sources */,
 				04BBB84C1BD2CAA800BA525D /* ViewController.swift in Sources */,
 				04E390731BD4B0920041585A /* ViewControllerConsultas.swift in Sources */,
+				046719F31BE5244C006C5848 /* XmlTokenLoginResult.swift in Sources */,
 				04E3906B1BD4167F0041585A /* TableViewControllerNotificacionesCell.swift in Sources */,
+				044916D31BE314200033E4AB /* TableViewControllerGestiones.swift in Sources */,
 				04E3906F1BD49E2B0041585A /* SWRevealViewController.m in Sources */,
+				047AD8AA1BE5339C008E01CC /* XmlGestiones.swift in Sources */,
 				04E390651BD414C40041585A /* TableViewControllerNotificaciones.swift in Sources */,
 				046290C71BDC332200003896 /* ViewControllerMap.swift in Sources */,
 				04E390771BD4C4990041585A /* ViewControllerTipoAsistencia.swift in Sources */,
 				04E390681BD415700041585A /* XmlNotificaciones.swift in Sources */,
 				046488A11BDDA02100549491 /* BasicCell.swift in Sources */,
 				04BBB8521BD2CAA900BA525D /* ficohsaseguros.xcdatamodeld in Sources */,
+				047AD8AE1BE5895C008E01CC /* XmlLocalizacionToken.swift in Sources */,
 				04BBB84A1BD2CAA800BA525D /* AppDelegate.swift in Sources */,
 				0464889F1BDDA01200549491 /* ImageCell.swift in Sources */,
 			);
